@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+    background-image: url('/src/assets/blackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: rgba(90, 200, 31, 0.5);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.home-logo img {
+    width: 50px;
+}
