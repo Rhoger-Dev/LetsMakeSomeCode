@@ -1,56 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
 
-    <link rel="stylesheet" href="styles.css">
-    <link icon rel="icon" href="/src/assets/logo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+        <link icon rel="icon" href="/src/assets/logo.ico" type="image/x-icon">
 
-</head>
+    </head>
 
-<body>
-    <header>
-        <h1 class="main-title">News Portal</h1>
-    </header>
-    <hr>
-    <nav>
-        <button class="home-button">
-            <div class="home-logo">
-                <img src="/src/assets/logo.ico" alt="Logo">
+    <body>
+        <header>
+            <h1 class="main-title">News Portal</h1>
+        </header>
+        <hr>
+        <nav>
+            <button class="home-button">
+                <div class="home-logo">
+                    <img src="/src/assets/logo.ico" alt="Logo">
+                </div>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="https://www.youtube.com/watch?v=t9tUdsxjJ4Y"
+                        target="blank">Today</a></li>
+                <!-- Aqui avia un gion bajo_ dentro del targer blank -->
+                <li><a href="#">Breaking News</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Shows</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section class="news-section">
+            <div class="news-container">
+                <h2>Latest News</h2>
+                <article>
+                    <h3>News Title 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed euismod, nunc ut laoreet
+                        consectetur, nisl nunc.</p>
+                </article>
+                <article>
+                    <h3>News Title 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed euismod, nunc ut laoreet
+                        consectetur, nisl nunc.</p>
+                </article>
             </div>
-        </button>
+        </section>
 
-        <ul class="nav-links">
-            <li><a href="https://www.youtube.com/watch?v=t9tUdsxjJ4Y" target="_blank">Today</a></li>
-            <li><a href="#">Breaking News</a></li>
-            <li><a href="#">Sports</a></li>
-            <li><a href="#">Shows</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
-    <section class="news-section">
-        <div class="news-container">
-            <h2>Latest News</h2>
-            <article>
-                <h3>News Title 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet
-                    consectetur, nisl nunc.</p>
+        
+              <!-- ---- BREAKING NEWS ---- -->
+
+        <section class="section" id="breaking">
+            <div class="section-title">
+                <h2>Breaking News</h2>
+                <span class="section-line"></span>
+            </div>
+            <article class="featured">
+                <img src="https://picsum.photos/id/1040/500/320"
+                    alt="Última hora">
+                <div class="featured-body">
+                    <span class="tag tag-alert">Última hora</span>
+                    <h3>Sed ut perspiciatis unde omnis iste natus error</h3> <br>
+                    <p>Sit voluptatem accusantium doloremque laudantium, totam
+                        rem aperiam eaque ipsa quae ab illo inventore veritatis
+                        et quasi architecto beatae vitae dicta sunt explicabo.
+                        Nemo enim ipsam voluptatem quia voluptas sit.</p>
+                </div>
             </article>
-            <article>
-                <h3>News Title 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet
-                    consectetur, nisl nunc.</p>
-            </article>
-        </div>
-    </section>
+        </section>
 
-    <footer>
-        <p>&copy; 2026 News Portal. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2026 News Portal. All rights reserved.</p>
+        </footer>
 
-</body>
+    </body>
 
 </html>

@@ -6,7 +6,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #000000;       /* color de las letras, las puse mas ocuras   */
 
     background-image: url('/src/assets/blackground.jpg');
     background-size: cover;
@@ -40,3 +40,21 @@ nav {
 .home-logo img {
     width: 50px;
 }
+
+/* =========================================================
+   SECCIONES / TÍTULOS/ BREAKING NEWS
+   ========================================================= */
+.section { margin-bottom: 56px; scroll-margin-top: 90px; }
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 22px;
+}
+.section-title h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    color: var(--navy);
+    white-space: nowrap;
+}
+.section-line { flex: 1; height: 2px; background: var(--line); }
